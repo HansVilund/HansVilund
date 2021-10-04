@@ -1,7 +1,9 @@
 
 Feature: Removing items from cart
+
 As a user i want to be able to remove an item from the basket, if i then regret putting it in the cart.
 @Rickard
+
 Scenario: Removing items from cart
   When im on "https://www.willys.se
   Then click MENY button
@@ -12,8 +14,10 @@ Scenario: Removing items from cart
 
 
   Feature: Category filtering
+  
     As a user i want to be able to filter products since im alergic to some.
   @rickard
+  
   Scenario: Im on Https://willys.se
     When I click on MENU button to  any category (Chicken for example)
     Then click on the  Kött, chark & fågel
@@ -21,7 +25,9 @@ Scenario: Removing items from cart
     Then i click on fågel and all bird meat should show
 
 Feature: Removing all items from the cart
+
   As a user i want to be able to remove all item from the basket. If i change my mind about shopping
+  
   @Rickard
   Scenario: Removing items from cart
     When im on "https://www.willys.se
